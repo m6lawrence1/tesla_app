@@ -1,2 +1,9 @@
-@import url(../blocks/header/header.css);
+@import url('../vendor/fonts/fonts.css');
+@import url('../vendor/normalize.css');
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_dark/page_dark.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_theme/logo_theme.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/button/button.css);

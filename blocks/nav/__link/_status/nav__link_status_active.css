@@ -1,0 +1,5 @@
+.nav__link_status_active{
+    border-bottom: 2px solid #D01000;
+    color: #000000;
+    opacity: 1;
+}

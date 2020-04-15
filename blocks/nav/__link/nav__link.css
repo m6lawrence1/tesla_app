@@ -1,0 +1,10 @@
+.nav__link{
+    text-decoration: none;
+    padding-bottom: 17px;
+    font-size: 18px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    opacity: 0.2;
+}
+

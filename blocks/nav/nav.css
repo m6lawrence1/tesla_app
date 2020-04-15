@@ -1,0 +1,11 @@
+@import url(./__container/nav__container.css);
+@import url(./__item/nav__item.css);
+@import url(./__link/nav__link.css);
+@import url(./__link/_status/nav__link_status_closed.css);
+@import url(./__link/_status/nav__link_status_active.css);
+
+.nav{
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+}

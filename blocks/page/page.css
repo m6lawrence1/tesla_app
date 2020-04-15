@@ -1,4 +1,9 @@
-@import url(./_dark/page_dark.css);
 .page {
-  border-radius: 60px;
+/*  Need to confirm rounded corners and if that is necessary. If so looks like we will have to add another div container under body tag to get that to work.*/
+    width:100%;
+    border-radius: 60px;
+    background-color: #fff;
+    font-family: Gotham Pro, sans-serif;
+    margin:0 auto;
+    overflow: hidden;
 }

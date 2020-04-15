@@ -1,0 +1,10 @@
+.button__previous{
+    width:18px;
+    height: 18px;
+    position: absolute;
+    bottom: 55px;
+    left: 40px;
+    background-image: url(../../../images/button__previous.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}

@@ -1,7 +1,8 @@
 .header {
-  background-image: url(../../images/tesla.svg);
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
 }

@@ -1,0 +1,8 @@
+.nav__container{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 35px;
+    justify-content: space-between;
+}
