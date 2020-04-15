@@ -1,0 +1,4 @@
+@import url(./_border/info__box_border.css);
+.info__box {
+  width: 49%;
+}

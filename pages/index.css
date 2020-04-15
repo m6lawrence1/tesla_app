@@ -8,3 +8,6 @@
 @import url(../blocks/logo/_theme/logo_theme_light.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/model/model.css);
+@import url(../blocks/car/car.css);
+@import url(../blocks/info/info.css);

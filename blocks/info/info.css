@@ -1,0 +1,13 @@
+@import url(./__box/info__box.css);
+@import url(./__text/info__text.css);
+@import url(./__box-subheading/info__box-subheading.css);
+@import url(./__box-heading/info__box-heading.css);
+.info {
+  max-width: 475px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

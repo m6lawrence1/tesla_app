@@ -1,0 +1,10 @@
+.model__brand {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: Gotham Pro;
+  font-size: 36px;
+  font-weight: 100;
+  line-height: 34px;
+  text-align: center;
+  color: #FFFFFF;
+}

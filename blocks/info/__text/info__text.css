@@ -1,0 +1,15 @@
+.info__text {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #979797;
+  /* color will need to be split into _modifier */
+}
+
+.info__text:nth-of-type(1) {
+  margin-top: 56px;
+  margin-bottom: 16px;
+}
