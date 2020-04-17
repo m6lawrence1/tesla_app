@@ -1,0 +1,18 @@
+@import url(./__input/option__input.css);
+@import url(./__label/option__label.css);
+@import url(./__label/_checked/option__label_checked.css);
+@import url(./__cost/option__cost.css);
+@import url(./__cost/_checked/option__cost_checked.css);
+.option{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.option .option__label {
+    
+}
+
+.option .option__input:checked + .option__label {
+    
+    box-shadow: none;
+}
