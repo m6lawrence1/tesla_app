@@ -1,0 +1,10 @@
+.next{
+    width: 475px;
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 40px 0;
+    background: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+}

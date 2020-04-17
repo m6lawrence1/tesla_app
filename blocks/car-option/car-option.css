@@ -1,0 +1,8 @@
+.car-option{
+    max-width: 100%;
+    width: 475px;
+    margin: auto;
+    padding-top: 124px;
+    margin-top: -124px;
+    display: block;
+}

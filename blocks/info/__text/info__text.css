@@ -1,4 +1,6 @@
 .info__text {
+  width: 475px;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   font-family: Gotham Pro;
@@ -7,6 +9,7 @@
   text-align: center;
   color: #979797;
   /* color will need to be split into _modifier */
+  padding: 0 40px;
 }
 
 .info__text:nth-of-type(1) {

@@ -1,0 +1,5 @@
+
+
+.info__box_light:first-of-type{
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}

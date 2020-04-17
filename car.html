@@ -8,7 +8,7 @@
 </head>
 
 <body class="page">
-  <header class="header">
+  <header class="header header_light">
     <div class="logo logo_theme_light"></div>
     <nav class="nav">
       <ol class="nav__container">
@@ -21,19 +21,39 @@
 <!-- &#8592; for arrow doesn't look the right length. No styling was given other than background an opacity. Used svg as background-->
     <a class="button__previous" href="index.html"></a>
   </header>
-
-  <section class="model">
-
+  <section class="car-option">
+    <h2 class="select-title">Select Your Car</h2>
+    <div class="car car_option_car"></div>
   </section>
-  <section class="car">
-
+  <section class="select">
+    <ul class="options">
+      <li class="option">
+        <input class="option__input" type='radio' value='performance' name='Performance' id='performance' checked/>
+        <label class="option__label option__label_checked" for='performance'>Performance</label>
+        <p class="option__cost option__cost_checked">$55,700</p>
+      </li>
+<!-- javascript/jquery would be needed to make these toggle-->
+      <li class="option">
+        <input class="option__input" type='radio' value='long range' name='Long Range'  id='long-range'/>
+        <label class="option__label" for='long-range'>Long range</label>
+        <p class="option__cost">$46,700</p>
+      </li>
+    </ul>   
   </section>
-  <section class="details">
-
+  <section class="info info_light">
+    <div class="info__box info__box_light">
+      <h2 class="info__box-heading info__box-heading_light">3.5s</h2>
+      <p class="info__box-subheading info__box-subheading_light">0-60 mph</p>
+    </div>
+    <div class="info__box info__box_light">
+      <h2 class="info__box-heading info__box-heading_light">150mph</h2>
+      <p class="info__box-subheading info__box-subheading_light">Top Speed</p>
+    </div>
+    <p class="info__text info__text_light">Tesla All-Wheel Drive has two independent motors. Unlike traditional all-wheel drive systems, these two motors digitally control torque to the front and rear wheels—for far better handling and traction control.</p>
   </section>
-  <footer class="footer">
-
-  </footer>
+  <section class="next">
+    <p class="total-text">$55,700</p>
+    <button class="button button__next">Next</button>
+  </section>
 </body>
-
 </html>

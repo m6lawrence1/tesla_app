@@ -1,0 +1,14 @@
+.button__next{
+    border: 2px solid #D01000;
+    box-sizing: border-box;
+    border-radius: 1000px;
+    width: 187px;
+    font-size: 20px;
+    line-height: 19px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 24px 0 20px;
+}

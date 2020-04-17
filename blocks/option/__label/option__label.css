@@ -1,0 +1,9 @@
+.option__label{
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #979797;
+    margin-left: -15px;
+}
+
