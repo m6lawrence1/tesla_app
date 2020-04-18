@@ -1,18 +1,18 @@
+@import url(./__container/info__container.css);
 @import url(./__box/info__box.css);
 @import url(./__box/_light/info__box_light.css);
 @import url(./__text/info__text.css);
-@import url(./__text/_light/info__text_light.css);
 @import url(./__box-subheading/info__box-subheading.css);
 @import url(./__box-subheading/_light/info__box-subheading_light.css);
 @import url(./__box-heading/info__box-heading.css);
 @import url(./__box-heading/_light/info__box-heading_light.css);
+@import url(./__specs/info__specs.css);
+@import url(./__spec/info__spec.css);
+@import url(./__spec-label/info__spec-label.css);
+
 .info {
-  max-width: 475px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-top: 51px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 51px;
 }

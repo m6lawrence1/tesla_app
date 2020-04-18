@@ -1,18 +1,9 @@
 .info__text {
-  width: 475px;
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Gotham Pro;
-  font-size: 18px;
-  line-height: 24px;
-  text-align: center;
-  color: #979797;
-  /* color will need to be split into _modifier */
-  padding: 0 40px;
-}
-
-.info__text:nth-of-type(1) {
-  margin-top: 56px;
-  margin-bottom: 16px;
+    width:100%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #979797;
+    padding: 30px 40px 0;
 }

@@ -1,0 +1,12 @@
+.info__spec{
+    margin: auto;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 16px;  
+}
+
+info__spec:last-of-type{
+    padding-bottom: 0;
+}

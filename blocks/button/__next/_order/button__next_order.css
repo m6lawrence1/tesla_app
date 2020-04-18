@@ -1,0 +1,12 @@
+.button__next_order{
+    width: 300px;
+    margin: auto;
+    text-transform:none;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+.button__next_order:hover {
+  color: #000000;
+  background: rgba(255, 255, 255, 0.3);
+}

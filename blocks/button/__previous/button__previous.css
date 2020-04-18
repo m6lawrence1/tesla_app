@@ -2,9 +2,10 @@
     width:18px;
     height: 18px;
     position: absolute;
-    top: 30px;
+    bottom: 70px;
     left: 40px;
     background-image: url(../../../images/button__previous.svg);
     background-repeat: no-repeat;
     background-color: transparent;
+    padding: 0;
 }

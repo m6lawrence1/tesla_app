@@ -5,7 +5,9 @@
 @import url(./__link/_status/nav__link_status_active.css);
 
 .nav{
-    width: 100%;
+    width: 475px;
     display: flex;
     padding-top: 40px;
+    position: relative;
+    margin: auto;
 }

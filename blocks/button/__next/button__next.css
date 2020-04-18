@@ -10,5 +10,13 @@
     text-align: center;
     text-transform: uppercase;
     color: #000000;
+    background-color: transparent;
     padding: 24px 0 20px;
+}
+
+.button__next:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  transition: 1s;
 }

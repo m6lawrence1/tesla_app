@@ -1,11 +1,8 @@
 .info__box-heading {
-  margin: 0;
-  margin-bottom: 8px;
-  font-family: Gotham Pro;
-  font-size: 36px;
-  line-height: 34px;
-  text-align: center;
-  color: #FFFFFF;
-  /* color will need to be split into _modifier */
-  s
+    margin: 0;
+    padding: 0 0 8px;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
 }

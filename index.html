@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
   <title>Tesla</title>
 </head>
-
 <body class="page page_dark">
   <header class="header">
     <div class="logo logo_theme_dark"></div>
   </header>
-
   <section class="model">
     <h2 class="model__brand"> Tesla </h2>
     <h1 class="model__model"> Model Y</h1>
-
   </section>
-
   <section class="car">
   </section>
-
   <section class="info">
-    <div class="info__box">
-      <h2 class="info__box-heading">300 mi</h2>
-      <p class="info__box-subheading"> Range (EPA est.)</p>
+    <div class="info__container">
+      <div class="info__box">
+        <h2 class="info__box-heading">300 mi</h2>
+        <p class="info__box-subheading"> Range (EPA est.)</p>
+      </div>
+      <div class="info__box">
+        <h2 class="info__box-heading">AWD</h2>
+        <p class="info__box-subheading">Dual Motor</p>
+      </div>
+      <ul class="info__specs">
+        <li class="info__spec"><span class="info__spec-label">Acceleration:</span> 0-60 mph in 3.5s</li>
+        <li class="info__spec"><span class="info__spec-label">Top speed:</span> up to 150 mph</li>
+      </ul>
     </div>
-    <div class="info__box">
-      <h2 class="info__box-heading">AWD</h2>
-      <p class="info__box-subheading">Dual Motor</p>
-    </div>
-    <p class="info__text">Acceleration: 0-60 mph in 3.5s</p>
-    <p class="info__text">Top speed: up to 150 mph</p>
   </section>
-
   <section class="order">
-    <form action="car.html">
-      <input class="order__orderbtn" type="submit" value="Order Now" />
-    </form>
+    <a class="button button__next button__next_order" href="car.html">Order Now</a>
   </section>
 </body>
-
 </html>

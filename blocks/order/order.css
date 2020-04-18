@@ -1,1 +1,7 @@
-@import url(./__orderbtn/order__orderbtn.css);
+.order{
+    width: 475px;
+    max-width: 100%;
+    display: flex;
+    margin:68px auto 0;
+    padding-bottom: 48px;
+}

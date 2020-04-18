@@ -1,0 +1,7 @@
+.next__container{
+    width: 475px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,9 +1,7 @@
 .info__box-subheading {
-  font-family: Gotham Pro;
   font-size: 14px;
   line-height: 13px;
   text-align: center;
   color: #FFFFFF;
   margin: 0;
-  /* color will need to be split into _modifier */
 }

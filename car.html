@@ -4,22 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
-  <title>Tesla - Car</title>
+  <title>Tesla - Order</title>
 </head>
-
 <body class="page">
   <header class="header header_light">
     <div class="logo logo_theme_light"></div>
     <nav class="nav">
       <ol class="nav__container">
         <li class="nav__item"><a class="nav__link nav__link_status_active" href="car.html">1. Car</a></li>
-        <li class="nav__item"><a class="nav__link" href="exterior.html">2. Exterior</a></li>
-        <li class="nav__item"><a class="nav__link" href="interior.html">3. Interior</a></li>
-        <li class="nav__item"><a class="nav__link" href="autopilot.html">4. Autopilot</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">2. Exterior</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">3. Interior</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">4. Autopilot</a></li>
       </ol>
+    <!-- &#8592; for arrow doesn't look the right length. No styling was given other than background an opacity. Used svg as background-->
+      <a class="button__previous" href="index.html"></a> 
     </nav>
-<!-- &#8592; for arrow doesn't look the right length. No styling was given other than background an opacity. Used svg as background-->
-    <a class="button__previous" href="index.html"></a>
   </header>
   <section class="car-option">
     <h2 class="select-title">Select Your Car</h2>
@@ -41,19 +40,23 @@
     </ul>   
   </section>
   <section class="info info_light">
-    <div class="info__box info__box_light">
-      <h2 class="info__box-heading info__box-heading_light">3.5s</h2>
-      <p class="info__box-subheading info__box-subheading_light">0-60 mph</p>
+    <div class="info__container">
+      <div class="info__box info__box_light">
+        <h2 class="info__box-heading info__box-heading_light">3.5s</h2>
+        <p class="info__box-subheading info__box-subheading_light">0-60 mph</p>
+      </div>
+      <div class="info__box info__box_light">
+        <h2 class="info__box-heading info__box-heading_light">150mph</h2>
+        <p class="info__box-subheading info__box-subheading_light">Top Speed</p>
+      </div>
+      <p class="info__text">Tesla All-Wheel Drive has two independent motors. Unlike traditional all-wheel drive systems, these two motors digitally control torque to the front and rear wheels—for far better handling and traction control.</p>
     </div>
-    <div class="info__box info__box_light">
-      <h2 class="info__box-heading info__box-heading_light">150mph</h2>
-      <p class="info__box-subheading info__box-subheading_light">Top Speed</p>
-    </div>
-    <p class="info__text info__text_light">Tesla All-Wheel Drive has two independent motors. Unlike traditional all-wheel drive systems, these two motors digitally control torque to the front and rear wheels—for far better handling and traction control.</p>
   </section>
   <section class="next">
-    <p class="total-text">$55,700</p>
-    <button class="button button__next">Next</button>
+    <div class="next__container">
+      <p class="total-text">$55,700</p>
+      <button class="button button__next">Next</button>   
+    </div>
   </section>
 </body>
 </html>
